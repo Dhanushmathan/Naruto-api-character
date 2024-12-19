@@ -1,19 +1,25 @@
 const express = require('express');
-const cors = require('cors'); // Optional, for CORS issues
+const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3000; // Use dynamic port for Render
+const port = process.env.PORT || 3000;
 
-app.use(cors()); // Enable CORS
+// Enable CORS
+app.use(cors());
 
 // Import JSON data
 const narutoData = require('./naruto.json');
 
-// Define route
+// API route for characters
 app.get('/api/characters', (req, res) => {
-    res.json(narutoData);
+  res.json(narutoData);
+});
+
+// Default route for root
+app.get('/', (req, res) => {
+  res.send("Welcome to the Naruto Shippuden API! Access /api/characters to get character details.");
 });
 
 // Start server
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
