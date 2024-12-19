@@ -1,0 +1,133 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Naruto Uzumaki",
+      "village": "Konohagakure",
+      "rank": "Hokage",
+      "skills": [
+        "Rasengan",
+        "Shadow Clone Jutsu",
+        "Sage Mode",
+        "Kurama Chakra Mode"
+      ],
+      "team": "Team 7"
+    },
+    {
+      "id": 2,
+      "name": "Sasuke Uchiha",
+      "village": "Konohagakure",
+      "rank": "Rogue Ninja",
+      "skills": [
+        "Sharingan",
+        "Chidori",
+        "Amaterasu",
+        "Susanoo"
+      ],
+      "team": "Team 7"
+    },
+    {
+      "id": 3,
+      "name": "Sakura Haruno",
+      "village": "Konohagakure",
+      "rank": "Jonin",
+      "skills": [
+        "Medical Ninjutsu",
+        "Chakra Enhanced Strength",
+        "Summoning Jutsu"
+      ],
+      "team": "Team 7"
+    },
+    {
+      "id": 4,
+      "name": "Kakashi Hatake",
+      "village": "Konohagakure",
+      "rank": "6th Hokage",
+      "skills": [
+        "Sharingan",
+        "Chidori",
+        "Lightning Blade",
+        "Kamui"
+      ],
+      "team": "Team 7 (Leader)"
+    },
+    {
+      "id": 5,
+      "name": "Itachi Uchiha",
+      "village": "Konohagakure",
+      "rank": "ANBU Captain",
+      "skills": [
+        "Sharingan",
+        "Amaterasu",
+        "Tsukuyomi",
+        "Susanoo"
+      ],
+      "team": "Akatsuki"
+    },
+    {
+      "id": 6,
+      "name": "Pain (Nagato)",
+      "village": "Amegakure",
+      "rank": "Akatsuki Leader",
+      "skills": [
+        "Rinnegan",
+        "Shinra Tensei",
+        "Chibaku Tensei",
+        "Summoning: Gedo Statue"
+      ],
+      "team": "Akatsuki"
+    },
+    {
+      "id": 7,
+      "name": "Gaara",
+      "village": "Sunagakure",
+      "rank": "Kazekage",
+      "skills": [
+        "Sand Manipulation",
+        "Shield of Sand",
+        "Desert Coffin",
+        "Magnet Release"
+      ],
+      "team": "N/A"
+    },
+    {
+      "id": 8,
+      "name": "Madara Uchiha",
+      "village": "Konohagakure",
+      "rank": "Legendary Ninja",
+      "skills": [
+        "Sharingan",
+        "Eternal Mangekyo Sharingan",
+        "Rinnegan",
+        "Susanoo"
+      ],
+      "team": "N/A"
+    },
+    {
+      "id": 9,
+      "name": "Hashirama Senju",
+      "village": "Konohagakure",
+      "rank": "1th Hokage",
+      "skills": [
+        "Wood Release",
+        " Sage Art: Gate of the Great God",
+        "Barrier Ninjutsu",
+        "Wood Dragons"
+      ],
+      "team": "N/A"
+    },
+    {
+      "id": 10,
+      "name": "Madara Uchiha",
+      "village": "Konohagakure",
+      "rank": "Legendary Ninja",
+      "skills": [
+        "Sensor Type",
+        " Shadow Clone Technique",
+        " Sword of Thunder God",
+        "Barrier Ninjutsu"
+      ],
+      "team": "N/A"
+    }
+  ]
+}

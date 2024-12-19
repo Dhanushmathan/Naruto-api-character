@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Characters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .character {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .character h2 {
+            margin: 0;
+            color: #ff4500;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Naruto Shippuden Characters</h1>
+    <div id="characters"></div>
+
+    <script>
+        // API URL (change this to your hosted URL)
+        const apiUrl = "http://localhost:3000/api/characters";
+
+        // Fetch data from API and display
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const charactersDiv = document.getElementById('characters');
+                data.characters.forEach(character => {
+                    const charDiv = document.createElement('div');
+                    charDiv.className = 'character';
+                    charDiv.innerHTML = `
+            <h2>${character.name}</h2>
+            <p><strong>Village:</strong> ${character.village}</p>
+            <p><strong>Rank:</strong> ${character.rank}</p>
+            <p><strong>Skills:</strong> ${character.skills.join(', ')}</p>
+            <p><strong>Team:</strong> ${character.team}</p>
+          `;
+                    charactersDiv.appendChild(charDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+
+</html>
