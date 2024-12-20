@@ -10,5 +10,7 @@ A RESTful API built with Node.js that provides details about Naruto Shippuden ch
  - Built using Express.js for fast and lightweight performance.
 
 
-## Live Demo:
+>#### Live on : https://naruto-api-character.onrender.com/api/characters
+
+
 
